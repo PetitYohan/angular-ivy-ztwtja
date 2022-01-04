@@ -1,1 +1,7 @@
 <p>sliders works!</p>
+<div class="slidecontainer" *ngFor="let i of valeurs">
+  <input type="range" min="0" max="9" [value]="i" class="slider" id="myRange" />
+  <p>
+    Value: <span>{{ i }}</span>
+  </p>
+</div>
