@@ -11,8 +11,4 @@ export class SlidersComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
-
-  readSlider(event) {
-    console.error(event);
-  }
 }
